@@ -1,0 +1,1531 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+	
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+
+        <title>TBR</title>
+		
+		<meta name="robots" content="noindex">
+		
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- Site CSS -->
+        <link href="css/reset.min.css" rel="stylesheet" type="text/css">        
+        <link href="css/style.min.css" rel="stylesheet" type="text/css">	
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,900&display=swap" rel="stylesheet">
+		
+        <!-- Font Awesome Kit -->
+        <script src="https://kit.fontawesome.com/85bf73863d.js"></script>
+        
+		<!-- Favicon Package -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#82a4ff">
+		<meta name="msapplication-TileColor" content="#82a4ff">
+		<meta name="theme-color" content="#82a4ff">
+
+    </head>
+
+    <body>
+		
+		<header>
+		
+			<div class="container">
+				<nav class="navbar navbar-expand-md">
+					<h1>TBR</h1>
+					<div class="navbar-nav nav-item ml-auto">
+						<a href="https://kylebarnes.me/" class="nav-link mb-3 mb-md-0" target="_blank" rel="noreferrer"></a>
+						<a href="https://github.com/kylewb94" class="nav-link mb-3 mb-md-0 ml-0 ml-md-3" target="_blank" rel="noreferrer"></a>
+						<a href="https://www.linkedin.com/in/kylewb94/" class="nav-link ml-0 ml-md-3" target="_blank" rel="noreferrer"></a>
+					</div>
+				</nav>
+			</div>	
+		
+		</header>
+		
+		<main>
+			
+			<a id="button"></a>
+			
+			<div class="container" id="books">				
+				<table class="table table-borderless mb-5" id="table">
+					<thead>
+						<tr>
+							<th
+							scope="col"
+							onclick="sortTable(0)">
+								Author <i class="fas fa-sort"></i>
+							</th>
+							<th
+							scope="col"
+							onclick="sortTable(1)">
+								Title <i class="fas fa-sort"></i>
+							</th>
+							<th
+							scope="col"
+							onclick="sortTable(2)">
+								Year <i class="fas fa-sort"></i>
+							</th>
+							<th
+							scope="col"
+							onclick="sortTable(3)">
+								Series <i class="fas fa-sort"></i>
+							</th>
+							<th
+							scope="col"
+							onclick="sortTable(4)">
+								Genre <i class="fas fa-sort"></i>
+							</th>
+							<th
+							scope="col"
+							onclick="sortTable(5)">
+								Priority <i class="fas fa-sort"></i>
+							</th>
+							<th
+							scope="col">
+							</th>	
+						</tr>
+					</thead>
+					<tbody>
+						<!-- First Law -->
+						<tr class="current">
+							<td scope="row">
+								Abercrombie
+								<br>
+								<span style="color:var(--secondary);">Joe</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340277669l/11172594.jpg'/>">
+									The Heroes
+								</p>	
+							</td>
+							<td>2011</td>
+							<td>
+								First Law
+								<br>
+								<span style="color:var(--secondary);">Standalone</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="5"><p>1</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/2315892.Best_Served_Cold" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Hitchhiker's Guide -->
+						<tr>
+							<td scope="row">
+								Adams
+								<br>
+								<span style="color:var(--secondary);">Douglas</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414351529l/14.jpg'/>">
+									The Hitchhiker's Guide to the Galaxy
+								</p>
+							</td>
+							<td>1979</td>
+							<td>
+								The Hitchhiker's Guide to the Galaxy
+								<br>
+								<span style="color:var(--secondary);">1 of 5</span>
+							</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Goblin Emperor -->
+						<tr>
+							<td scope="row">
+								Addison
+								<br>
+								<span style="color:var(--secondary);">Katherine</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373039517l/17910048.jpg'/>">
+									The Goblin Emperor
+								</p>
+							</td>
+							<td>2014</td>
+							<td>
+								The Goblin Emperor
+								<br>
+								<span style="color:var(--secondary);">1 of 2</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/17910048-the-goblin-emperor" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Americanah -->
+						<tr>
+							<td scope="row">
+								Adichie
+								<br>
+								<span style="color:var(--secondary);">Chimamanda Ngozi</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387701847l/18209268.jpg'/>">
+									Americanah
+								</p>
+							</td>
+							<td>2013</td>
+							<td>Standalone</td>
+							<td>Literary Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/15796700-americanah" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Second Apocalypse -->
+						<tr>
+							<td scope="row">
+								Bakker
+								<br>
+								<span style="color:var(--secondary);">R. Scott</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440646434l/3173564._SX318_.jpg'/>">
+									The Darkness That Comes Before
+								</p>
+							</td>
+							<td>2003</td>
+							<td>
+								The Second Apocalypse
+								<br>
+								<span style="color:var(--secondary);">1 of 7</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/301538.The_Darkness_That_Comes_Before" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Books of Babel -->
+						<tr>
+							<td scope="row">
+								Bancroft
+								<br>
+								<span style="color:var(--secondary);">Josiah</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502224161l/35271523.jpg'/>">
+									Senlin Ascends
+								</p>
+							</td>
+							<td>2013</td>
+							<td>
+								The Books of Babel
+								<br>
+								<span style="color:var(--secondary);">1 of 4</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/35271523-senlin-ascends" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Ninth House -->
+						<tr>
+							<td scope="row">
+								Bardugo
+								<br>
+								<span style="color:var(--secondary);">Leigh</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553102141l/43263680.jpg'/>">
+									Ninth House
+								</p>
+							</td>
+							<td>2019</td>
+							<td>
+								Alex Stern
+								<br>
+								<span style="color:var(--secondary);">1 of 2</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/43263680-ninth-house" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Six of Crows -->
+						<tr>
+							<td scope="row">
+								Bardugo
+								<br>
+								<span style="color:var(--secondary);">Leigh</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1459349344l/23437156.jpg'/>">
+									Six of Crows
+								</p>
+							</td>
+							<td>2015</td>
+							<td>
+								Six of Crows
+								<br>
+								<span style="color:var(--secondary);">1 of 2</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/23437156-six-of-crows" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Manual for Cleaning Women -->
+						<tr>
+							<td scope="row">
+								Berlin
+								<br>
+								<span style="color:var(--secondary);">Lucia</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437827518l/22929586.jpg'/>">
+									A Manual for Cleaning Women: Selected Stories
+								</p>
+							</td>
+							<td>2015</td>
+							<td>Standalone</td>
+							<td>Literary Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/22929586-a-manual-for-cleaning-women" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>						
+						<!-- Red Rising -->
+						<tr>
+							<td scope="row">
+								Brown
+								<br>
+								<span style="color:var(--secondary);">Pierce</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1461354651l/15839976.jpg'/>">
+									Red Rising
+								</p>
+							</td>
+							<td>2014</td>
+							<td>
+								Red Rising Saga
+								<br>
+								<span style="color:var(--secondary);">1 of 5</span>
+							</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/15839976-red-rising" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Dresden Files -->
+						<tr>
+							<td scope="row">
+								Butcher
+								<br>
+								<span style="color:var(--secondary);">Jim</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555025517l/8150021.jpg'/>">
+									Storm Front
+								</p>
+							</td>
+							<td>2000</td>
+							<td>
+								Dresden Files
+								<br>
+								<span style="color:var(--secondary);">1 of 15</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/47212.Storm_Front" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Ender's Game -->
+						<tr>
+							<td scope="row">
+								Card
+								<br>
+								<span style="color:var(--secondary);">Orson Scott</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408303130l/375802.jpg'/>">
+									Ender's Game
+								</p>
+							</td>
+							<td>1985</td>
+							<td>
+								Ender's Saga
+								<br>
+								<span style="color:var(--secondary);">1 of 16</span>
+							</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/375802.Ender_s_Game" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Moonglow -->
+						<tr>
+							<td scope="row">
+								Chabon
+								<br>
+								<span style="color:var(--secondary);">Michael</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457526101l/26795307.jpg'/>">
+									Moonglow
+								</p>
+							</td>
+							<td>2016</td>
+							<td>Standalone</td>
+							<td>Literary Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/26795307-moonglow" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Daevabad Trilogy -->
+						<tr>
+							<td scope="row">
+								Chakraborty
+								<br>
+								<span style="color:var(--secondary);">S.A.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491417547l/32718027.jpg'/>">
+									City of Brass
+								</p>								
+							</td>
+							<td>2017</td>
+							<td>
+								The Daevabad Trilogy
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/32718027-the-city-of-brass" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Sorcerer Royal -->
+						<tr>
+							<td scope="row">
+								Cho
+								<br>
+								<span style="color:var(--secondary);">Zen</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430239646l/23943137.jpg'/>">
+									Sorcerer to the Crown
+								</p>								
+							</td>
+							<td>2015</td>
+							<td>
+								Sorcerer Royal
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/23943137-sorcerer-to-the-crown" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Remembrance of Earth's Past -->
+						<tr>
+							<td scope="row">
+								Cixin
+								<br>
+								<span style="color:var(--secondary);">Liu</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415428227l/20518872.jpg'/>">
+									The Three-Body Problem
+								</p>								
+							</td>
+							<td>2008</td>
+							<td>
+								Remembrance of Earth's Past
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/20518872-the-three-body-problem" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Jonathan Strange & Mr. Norrell -->
+						<tr>
+							<td scope="row">
+								Clarke
+								<br>
+								<span style="color:var(--secondary);">Susanna</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357027589l/14201._SY475_.jpg'/>">
+									Jonathan Strange &amp; Mr. Norrell
+								</p>								
+							</td>
+							<td>2006</td>
+							<td>Standalone</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/14201.Jonathan_Strange_Mr_Norrell" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Black Company -->
+						<tr>
+							<td scope="row">
+								Cook
+								<br>
+								<span style="color:var(--secondary);">Glen</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431815019l/25550470._SY475_.jpg'/>">
+									The Black Company
+								</p>								
+							</td>
+							<td>1992</td>
+							<td>
+								The Chronicles of the Black Company
+								<br>
+								<span style="color:var(--secondary);">1 of 9</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/140671.The_Black_Company" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Expanse -->
+						<tr>
+							<td scope="row">
+								Corey
+								<br>
+								<span style="color:var(--secondary);">S.A.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411013134l/8855321.jpg'/>">
+									Leviathan Wakes
+								</p>								
+							</td>
+							<td>2011</td>
+							<td>
+								The Expanse
+								<br>
+								<span style="color:var(--secondary);">1 of 9</span>
+							</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/8855321-leviathan-wakes" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Dark Matter -->
+						<tr>
+							<td scope="row">
+								Crouch
+								<br>
+								<span style="color:var(--secondary);">Black</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1472119680l/27833670._SY475_.jpg'/>">
+									Dark Matter
+								</p>								
+							</td>
+							<td>2016</td>
+							<td>Standalone</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/27833670-dark-matter" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>						
+						<!-- Recursion -->
+						<tr>
+							<td scope="row">
+								Crouch
+								<br>
+								<span style="color:var(--secondary);">Black</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1543687940l/42046112.jpg'/>">
+									Recursion
+								</p>								
+							</td>
+							<td>2019</td>
+							<td>Standalone</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/42046112-recursion" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Mirror Visitor -->
+						<tr>
+							<td scope="row">
+								Dabos
+								<br>
+								<span style="color:var(--secondary);">Christelle</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1532807526l/40969531._SX318_.jpg'/>">
+									A Winter's Promise
+								</p>								
+							</td>
+							<td>2018</td>
+							<td>
+								The Mirror Visitor
+								<br>
+								<span style="color:var(--secondary);">1 of 4</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/40969531-a-winter-s-promise" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Malazan -->
+						<tr>
+							<td scope="row">
+								Erikson
+								<br>
+								<span style="color:var(--secondary);">Steven</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548497031l/55399._SY475_.jpg'/>">
+									Gardens of the Moon
+								</p>								
+							</td>
+							<td>1999</td>
+							<td>
+								Malazan Book of the Fallen
+								<br>
+								<span style="color:var(--secondary);">1 of 10</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5"><p>2</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/55399.Gardens_of_the_Moon" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- American Gods -->
+						<tr>
+							<td scope="row">
+								Gaiman
+								<br>
+								<span style="color:var(--secondary);">Neil</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462924585l/30165203.jpg'/>">
+									American Gods
+								</p>								
+							</td>
+							<td>2001</td>
+							<td>Standalone</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/30165203-american-gods" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Dune -->
+						<tr>
+							<td scope="row">
+								Herbert
+								<br>
+								<span style="color:var(--secondary);">Frank</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546269682l/43419431._SY475_.jpg'/>">
+									Dune
+								</p>								
+							</td>
+							<td>1965</td>
+							<td>
+								Dune
+								<br>
+								<span style="color:var(--secondary);">1 of 6</span>
+							</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/44767458-dune" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Realm of the Elderlings -->
+						<tr>
+							<td scope="row">
+								Hobb
+								<br>
+								<span style="color:var(--secondary);">Robin</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464570795l/77197._SY475_.jpg'/>">
+									Assassin's Apprentice
+								</p>								
+							</td>
+							<td>1995</td>
+							<td>
+								The Realm of the Elderlings
+								<br>
+								<span style="color:var(--secondary);">1 of 16</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/77197.Assassin_s_Apprentice" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Licanius Trilogy -->
+						<tr>
+							<td scope="row">
+								Islington
+								<br>
+								<span style="color:var(--secondary);">James</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507308087l/22878967.jpg'/>">
+									The Shadow of What Was Lost
+								</p>								
+							</td>
+							<td>2014</td>
+							<td>
+								The Licanius Trilogy
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/22878967-the-shadow-of-what-was-lost" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Dark Star Trilogy -->
+						<tr>
+							<td scope="row">
+								James
+								<br>
+								<span style="color:var(--secondary);">Marlon</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1579618622l/50608676.jpg'/>">
+									Black Leopard, Red Wolf
+								</p>								
+							</td>
+							<td>2019</td>
+							<td>
+								The Dark Star Trilogy
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/50608676-black-leopard-red-wolf" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Broken Earth -->
+						<tr>
+							<td scope="row">
+								Jemisin
+								<br>
+								<span style="color:var(--secondary);">N.K.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386803701l/19161852.jpg'/>">
+									The Fifth Season
+								</p>								
+							</td>
+							<td>2015</td>
+							<td>
+								The Broken Earth
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/19161852-the-fifth-season" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Loving Day -->
+						<tr>
+							<td scope="row">
+								Johnson
+								<br>
+								<span style="color:var(--secondary);">Mat</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498246049l/35504437._SY475_.jpg'/>">
+									Loving Day
+								</p>								
+							</td>
+							<td>2015</td>
+							<td>Standalone</td>
+							<td>Literary Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/23164956-loving-day" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Dark Tower -->
+						<tr>
+							<td scope="row">
+								King
+								<br>
+								<span style="color:var(--secondary);">Stephen</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554220416l/43615.jpg'/>">
+									The Gunslinger
+								</p>								
+							</td>
+							<td>1982</td>
+							<td>
+								The Dark Tower
+								<br>
+								<span style="color:var(--secondary);">1 of 8</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/43615.The_Gunslinger" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Poppy War -->
+						<tr>
+							<td scope="row">
+								Kuang
+								<br>
+								<span style="color:var(--secondary);">R.F.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515691735l/35068705.jpg'/>">
+									The Poppy War
+								</p>								
+							</td>
+							<td>2018</td>
+							<td>
+								The Poppy War
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/35068705-the-poppy-war" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Changeling -->
+						<tr>
+							<td scope="row">
+								LaValle
+								<br>
+								<span style="color:var(--secondary);">Victor</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512153714l/36698384._SY475_.jpg'/>">
+									The Changeling
+								</p>								
+							</td>
+							<td>2017</td>
+							<td>Standalone</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/31147267-the-changeling" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Broken Empire -->
+						<tr>
+							<td scope="row">
+								Lawrence
+								<br>
+								<span style="color:var(--secondary);">Mark</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327917754l/9579634.jpg'/>">
+									Prince of Thorns
+								</p>								
+							</td>
+							<td>2011</td>
+							<td>
+								The Broken Empire
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/9579634-prince-of-thorns" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Red Queen's War -->
+						<tr>
+							<td scope="row">
+								Lawrence
+								<br>
+								<span style="color:var(--secondary);">Mark</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385072473l/18693743.jpg'/>">
+									Prince of Fools
+								</p>								
+							</td>
+							<td>2014</td>
+							<td>
+								The Red Queen's War
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/18693743-prince-of-fools" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Book of the Ancestor -->
+						<tr>
+							<td scope="row">
+								Lawrence
+								<br>
+								<span style="color:var(--secondary);">Mark</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481038440l/25895524.jpg'/>">
+									Red Sister
+								</p>								
+							</td>
+							<td>2017</td>
+							<td>
+								The Book of the Ancestor
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/25895524-red-sister" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Earthsea Cycle -->
+						<tr>
+							<td scope="row">
+								Le Guin
+								<br>
+								<span style="color:var(--secondary);">Ursula K.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353424536l/13642.jpg'/>">
+									A Wizard of Earthsea
+								</p>								
+							</td>
+							<td>1968</td>
+							<td>
+								Earthsea Cycle
+								<br>
+								<span style="color:var(--secondary);">1 of 6</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/13642.A_Wizard_of_Earthsea" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Imperial Radch -->
+						<tr>
+							<td scope="row">
+								Leckie
+								<br>
+								<span style="color:var(--secondary);">Ann</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397215917l/17333324.jpg'/>">
+									Ancillary Justice
+								</p>								
+							</td>
+							<td>2013</td>
+							<td>
+								Imperial Radch
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/17333324-ancillary-justice" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Gentleman Bastard -->
+						<tr>
+							<td scope="row">
+								Lynch
+								<br>
+								<span style="color:var(--secondary);">Scott</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529603335l/40604556._SY475_.jpg'/>">
+									Red Seas Under Red Skies
+								</p>								
+							</td>
+							<td>2007</td>
+							<td>
+								Gentleman Bastard
+								<br>
+								<span style="color:var(--secondary);">2 of 7</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5"><p>2</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/40604556-red-seas-under-red-skies" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- ASOIF -->
+						<tr>
+							<td scope="row">
+								Martin
+								<br>
+								<span style="color:var(--secondary);">George R.R.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562726234l/13496.jpg'/>">
+									A Game of Thrones
+								</p>								
+							</td>
+							<td>1996</td>
+							<td>
+								A Song of Ice and Fire
+								<br>
+								<span style="color:var(--secondary);">1 of 7</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/13496.A_Game_of_Thrones" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Powder Mage -->
+						<tr>
+							<td scope="row">
+								McCellan
+								<br>
+								<span style="color:var(--secondary);">Brian</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1350337505l/15790883.jpg'/>">
+									Promise of Blood
+								</p>								
+							</td>
+							<td>2013</td>
+							<td>
+								Powder Mage
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/15790883-promise-of-blood" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Middlegame -->
+						<tr>
+							<td scope="row">
+								McGuire
+								<br>
+								<span style="color:var(--secondary);">Seanan</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537297437l/35965482._SX318_.jpg'/>">
+									Middlegame
+								</p>								
+							</td>
+							<td>2019</td>
+							<td>Standalone</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/35965482-middlegame" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Ascension Cycle -->
+						<tr>
+							<td scope="row">
+								Mealing
+								<br>
+								<span style="color:var(--secondary);">David</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487138941l/31933139._SY475_.jpg'/>">
+									Soul of the World
+								</p>								
+							</td>
+							<td>2017</td>
+							<td>
+								The Ascension Cycle
+								<br>
+								<span style="color:var(--secondary);">1 of 2</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/31933139-soul-of-the-world" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Keys to the Kingdom -->
+						<tr>
+							<td scope="row">
+								Nix
+								<br>
+								<span style="color:var(--secondary);">Garth</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517488884l/36127353.jpg'/>">
+									Mister Monday
+								</p>								
+							</td>
+							<td>2003</td>
+							<td>
+								The Keys to the Kingdom
+								<br>
+								<span style="color:var(--secondary);">2 of 7</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/47613.Mister_Monday" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Who Fears Death -->
+						<tr>
+							<td scope="row">
+								Okorafor
+								<br>
+								<span style="color:var(--secondary);">Nnedi</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348469489l/7767021.jpg'/>">
+									Who Fears Death
+								</p>								
+							</td>
+							<td>2010</td>
+							<td>Standalone</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/7767021-who-fears-death" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- His Dark Materials -->
+						<tr>
+							<td scope="row">
+								Pullman
+								<br>
+								<span style="color:var(--secondary);">Philip</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505766203l/119322._SX318_.jpg'/>">
+									The Golden Compass
+								</p>
+							</td>
+							<td>1995</td>
+							<td>
+								His Dark Materials
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/119322.The_Golden_Compass" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Kingkiller Chronicle -->
+						<tr>
+							<td scope="row">
+								Rothfuss
+								<br>
+								<span style="color:var(--secondary);">Patrick</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1515589515l/186074._SX318_.jpg'/>">
+									The Name of the Wind
+								</p>
+							</td>
+							<td>2007</td>
+							<td>
+								The Kingkiller Chronicle
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>						
+						<!-- The Stormlight Archive -->
+						<tr>
+							<td scope="row">
+								Sanderson
+								<br>
+								<span style="color:var(--secondary);">Brandon</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388184640l/7235533.jpg'/>">
+									The Way of Kings
+								</p>
+							</td>
+							<td>2010</td>
+							<td>
+								The Stormlight Archive
+								<br>
+								<span style="color:var(--secondary);">1 of 10</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/7235533-the-way-of-kings" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Shades of Magic -->
+						<tr>
+							<td scope="row">
+								Schwab
+								<br>
+								<span style="color:var(--secondary);">V.E.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400322851l/22055262.jpg'/>">
+									A Darker Shade of Magic
+								</p>
+							</td>
+							<td>2015</td>
+							<td>
+								Shades of Magic
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/22055262-a-darker-shade-of-magic" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Priory of the Orange Tree -->
+						<tr>
+							<td scope="row">
+								Shannon
+								<br>
+								<span style="color:var(--secondary);">Samantha</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1527807139l/40275288._SY475_.jpg'/>">
+									The Priory of the Orange Tree
+								</p>
+							</td>
+							<td>2019</td>
+							<td>Standalone</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/40275288-the-priory-of-the-orange-tree" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Hyperion Cantos -->
+						<tr>
+							<td scope="row">
+								Simmons
+								<br>
+								<span style="color:var(--secondary);">Dan</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405546838l/77566.jpg'/>">
+									Hyperion
+								</p>
+							</td>
+							<td>1989</td>
+							<td>
+								Hyperion Cantos
+								<br>
+								<span style="color:var(--secondary);">1 of 4</span>
+							</td>
+							<td>Science Fiction</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/77566.Hyperion" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Riyria Revelations -->
+						<tr>
+							<td scope="row">
+								Sullivan
+								<br>
+								<span style="color:var(--secondary);">Michael J.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1313141264l/4345290.jpg'/>">
+									The Crown Conspiracy
+								</p>
+							</td>
+							<td>2011</td>
+							<td>
+								The Riyria Revelations
+								<br>
+								<span style="color:var(--secondary);">1 of 6</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/4345290-the-crown-conspiracy" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Legends of the First Empire -->
+						<tr>
+							<td scope="row">
+								Sullivan
+								<br>
+								<span style="color:var(--secondary);">Michael J.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507307691l/26863057.jpg'/>">
+									Age of Myth
+								</p>
+							</td>
+							<td>2016</td>
+							<td>
+								The Legends of the First Empire
+								<br>
+								<span style="color:var(--secondary);">1 of 6</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="5"><p>4</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/26863057-age-of-myth" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- The Lord of the Rings -->
+						<tr>
+							<td scope="row">
+								Tolkien
+								<br>
+								<span style="color:var(--secondary);">J.R.R.</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1376202919l/6428447.jpg'/>">
+									The Two Towers
+								</p>
+							</td>
+							<td>1954</td>
+							<td>
+								The Lord of the Rings
+								<br>
+								<span style="color:var(--secondary);">2 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="3" aria-valuemin="0" aria-valuemax="5"><p>3</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/15241.The_Two_Towers" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Lyonesse -->
+						<tr>
+							<td scope="row">
+								Vance
+								<br>
+								<span style="color:var(--secondary);">Jack</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411657151l/40877.jpg'/>">
+									Suldrun's Garden
+								</p>
+							</td>
+							<td>1983</td>
+							<td>
+								Lyonesse
+								<br>
+								<span style="color:var(--secondary);">1 of 3</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="5"><p>5</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/40869.Suldrun_s_Garden" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+						<!-- Lightbringer -->
+						<tr>
+							<td scope="row">
+								Weeks
+								<br>
+								<span style="color:var(--secondary);">Brent</span>
+							</td>
+							<td>
+								<p data-toggle="tooltip" data-html="true" title="<img src='https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1359493810l/16131107.jpg'/>">
+									The Black Prism
+								</p>
+							</td>
+							<td>2010</td>
+							<td>
+								Lightbringer
+								<br>
+								<span style="color:var(--secondary);">1 of 5</span>
+							</td>
+							<td>Fantasy</td>
+							<td>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="5"><p>2</p></div>
+								</div>
+							</td>
+							<td><a href="https://www.goodreads.com/book/show/7165300-the-black-prism" target="_blank" rel="noreferrer"><i class="fab fa-goodreads"></i></a></td>
+						</tr>
+					</tbody>
+				</table>				
+			</div>
+
+        </main>
+		
+		<footer>
+			<p>
+				&copy; 2020 <span style="font-weight:600;">Kyle Barnes</span>
+			</p>
+		</footer>
+                
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+        <!-- Popper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<!-- GSAP JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js" crossorigin="anonymous"></script>
+		<!-- GSAP cssRule -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/CSSRulePlugin.min.js" crossorigin="anonymous"></script>
+		<!-- Custom JS -->
+		<script src="js/main.min.js"></script>
+
+    </body>
+
+</html>
